@@ -22,7 +22,9 @@ public class LerArquivoExcel {
             var workbook = new XSSFWorkbook(excelFile);
             var primeiraAba = workbook.getSheetAt(0);
 
+            int contadorLinha = 0;
             for (Row linha : primeiraAba) {
+                if (++contadorLinha == 1) continue;
                 var cliente = Cliente.builder()
                         .id((int) linha.getCell(0).getNumericCellValue())
                         .nome(linha.getCell(1).getStringCellValue())

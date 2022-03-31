@@ -18,4 +18,4 @@
 
 ## 📺 Link dos vídeos
 
- - [Lendo CSV](https://youtu.be/uCUw9lL9HnE)
+ - [Arquivos Excel](https://youtu.be/uCUw9lL9HnE)

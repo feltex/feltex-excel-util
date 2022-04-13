@@ -11,7 +11,7 @@ class LerArquivoExcelTest {
         var lerArquivoExcel = new LerArquivoExcel();
         var clientes = lerArquivoExcel.lerArquivo("clientesParaLeitura.xlsx");
 
-        assertEquals(2, clientes.size());
+        assertEquals(3, clientes.size());
     }
 
 }
